@@ -15,7 +15,7 @@ layout: default
     <p>{{ project.description }}</p>
 
     {% if project.link %}
-    <a href="{{project.link}}"><button type="button" class="btn btn-primary">GitHub</button></a>
+    <a href="{{ project.link }}"><button type="button" class="btn btn-primary">{{ project.link-name }}</button></a>
     {% endif %}
 </div>
 
