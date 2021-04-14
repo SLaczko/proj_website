@@ -30,4 +30,8 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 gem "github-pages", "214", group: :jekyll_plugins
 
+# material design stuff
+# todo: use this to make a parallax bg
+gem "materialize-sass"
+
 gem "webrick", "~> 1.7"

@@ -1,3 +1,10 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .project-card {
     text-align: left;
     margin: 2rem auto;
