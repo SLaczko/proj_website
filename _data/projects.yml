@@ -4,3 +4,6 @@
   img: "/media/tf2_engi.jpg"
 - project_name: "MySQL Database Application"
   description: "Analyzed the requirements, designed, implemented, documented and tested a database application that manages the infrastructure of a mock real estate company."
+- project_name: "Professional Website"
+  description: "Learned front-end development using HTML, CSS, and Jekyll to create this site."
+  link: "https://stevenlaczko.github.io/"
