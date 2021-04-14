@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="container">
+{% for project in site.data.projects %}
+
+<div class="project-card">
+    {% if project.img %}
+    <h1><img src="{{ project.img }}"/>   {{project.project_name}}</h1>
+    {% else %}
+    <h1>{{project.project_name}}</h1>
+    {% endif %}
+
+    <p>{{ project.description }}</p>
+
+    {% if project.link %}
+    <button type="button" href="{{project.link}}" class="btn btn-primary">GitHub</button>
+    {% endif %}
+</div>
+
+{% endfor %}
+</div>
