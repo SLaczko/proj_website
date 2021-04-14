@@ -1,0 +1,14 @@
+.project-card {
+    text-align: left;
+    margin: 2rem auto;
+    width: 40rem;
+    background: #d9dfe0;
+    border-radius: 50px 15px;
+    padding: 25px 40px 35px 25px;
+}
+
+.project-card img {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 5rem;
+}
