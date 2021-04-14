@@ -2,3 +2,90 @@
 layout: default
 home: true
 ---
+<div class="container">
+
+
+    {% for project in site.data.projects %}
+    <div class="d-flex flex-wrap align-items-center justify-content-center py-3 mb-4">
+        <ul class="nav col-md-auto mb-2 justify-content-center mb-md-0">
+            <li>
+                <div class="project-card">
+                    <div class="project-card-content">
+                        <!-- Adding img and project name -->
+                        {% if project.img %}
+                        <h1><img src="{{ project.img }}"/> {{project.project_name}}</h1>
+                        {% else %}
+                        <h1>{{project.project_name}}</h1>
+                        {% endif %}
+
+                        <p>{{ project.description }}</p>
+
+                        {% if project.link %}
+                        <a href="{{ project.link }}">
+                            <button type="button" class="btn btn-primary">{{ project.link-name }}</button>
+                        </a>
+                        {% endif %}
+                    </div>
+
+                    <p style="color: #444d56; font-size: small; padding: 5px 0 0">{{ project.date }}</p>
+
+                </div>
+            </li>
+            <li>
+                <div class="project-card">
+                    <div class="project-card-content">
+                        <p id="commit{{ forloop.index }}"></p>
+
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    {% endfor %}
+</div>
+
+<script>
+    $(document).ready(function()
+    {
+        $.ajax({
+            url: "https://api.github.com/repos/StevenLaczko/BorisBot/git/refs/heads/master",
+            type: 'GET',
+            contentType: 'application/json; charset=utf-8',
+            success: function (result) {
+                console.log(result)
+            },
+            error: function (output) {
+                console.log(output);
+            }
+        })
+    })
+    // window.onload = () => {
+    //     const http = new XMLHttpRequest();
+    //     const url = "https://api.github.com/repos/StevenLaczko/BorisBot/git/refs/heads/master";
+    //     window.state = "getting_ref";
+    //     console.log("hi")
+    //     http.open("GET", url);
+    //     http.send();
+    //
+    //     http.onreadystatechange = () => {
+    //         console.log(window.state)
+    //         console.log(http.response)
+    //
+    //         if (window.state === "getting_ref") {
+    //             const gh_ref = JSON.parse(http.response);
+    //             const commit_url = gh_ref.object.url;
+    //             http.open("GET", commit_url);
+    //             window.state = "got_ref";
+    //             http.send();
+    //         }
+    //
+    //         if (window.state === "got_ref") {
+    //             window.state = "getting_commit";
+    //             console.log(window.state);
+    //             const commit_data = JSON.parse(http.response);
+    //             console.log(commit_data);
+    //             document.getElementById("commit").innerHTML = commit_data.message;
+    //         }
+    //    }
+    //}
+</script>
