@@ -3,8 +3,13 @@
   link-name: "GitHub"
   link: "https://github.com/StevenLaczko/BorisBot"
   img: "/media/tf2_engi.jpg"
+
+- project_name: "Do You Know Me? Back-end"
+  description: "Currently developing a RESTful back-end server in ExpressJS that uses websockets to facilitate gameplay."
+
 - project_name: "MySQL Database Application"
   description: "Analyzed the requirements, designed, implemented, documented and tested a database application that manages the infrastructure of a mock real estate company."
+
 - project_name: "Professional Website"
   description: "Learned front-end development using HTML, CSS, and Jekyll to create this site."
   link-name: "This"
