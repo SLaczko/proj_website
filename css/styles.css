@@ -1,3 +1,7 @@
+:root {
+    --elem-bg-color: #d9dfe0;
+}
+
 body {
     height: 100%;
     margin: 0;
@@ -5,17 +9,138 @@ body {
     background-attachment: fixed;
 }
 
+#content {
+
+}
+
+#header-image {
+    width: 45vw;
+    display: inline-block;
+    z-index: 0;
+}
+
+#header-image img {
+    margin: 1rem;
+    width: 30%;
+    height: auto;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+.sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    bottom: 0;
+}
+
+#header {
+    width: 100%;
+}
+
+.header-inner-container {
+    z-index: 1;
+    align-content: center;
+    margin: 0 20vw 0 20vw;
+}
+
+.header-box {
+    flex: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#header-links ul li a {
+    color: black;
+    background-color: var(--elem-bg-color);
+    margin: 0.5rem 1rem 0.5rem 1rem;
+    padding: 1px 15px 3px 15px;
+    border-radius: 2rem;
+}
+
+#header-links ul li b {
+    font-size: x-large;
+}
+
+.overlap {
+    position: absolute;
+}
+
+.absolute-center {
+    margin: auto;
+    position: absolute;
+    left: 0; right: 0;
+}
+
+#projects-container {
+    width: 50vw;
+    min-width: 5rem;
+    margin: auto;
+}
+
 .project-card {
     text-align: left;
     margin: 2rem auto;
     width: 40rem;
-    background: #d9dfe0;
+    background: var(--elem-bg-color);
     border-radius: 50px 15px;
     padding: 25px 40px 35px 25px;
 }
 
 .project-card img {
-    width: 9rem;
-    height: 9rem;
-    border-radius: 5rem;
+    width: 20vw;
+    max-width: 150px;
+    max-height: 150px;
+    height: 20vw;
+    border-radius: 20vw;
+}
+
+#mobile-480px {
+    display: none;
+}
+
+@media screen and (max-width : 480px) {
+    #mobile-480px {
+        display: block;
+    }
+    #desktop {
+        display: none;
+    }
+
+    #header-image img {
+        margin: 1rem;
+        width: 15%;
+        height: auto;
+        border-radius: 5rem;
+    }
+
+
+    .header-inner-container {
+        align-content: center;
+        margin: 0 20vw 0 20vw;
+    }
+
+    .header-box {
+        flex: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    #header-links ul li a {
+        color: black;
+        background-color: var(--elem-bg-color);
+        margin: 0.1rem 0.2rem 0.1rem 0.2rem;
+        padding: 1px 1px 1px 1px;
+        border-radius: 2rem;
+    }
+
+    #header-links ul li b {
+        font-size: large;
+    }
+
+    #projects-container {
+        width: 100vw;
+        min-width: 5rem;
+        margin: auto;
+    }
 }

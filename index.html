@@ -2,12 +2,13 @@
 layout: default
 home: true
 ---
-<div class="container">
+
+<div id="projects-container" class="container align-center">
     {% for project in site.data.projects %}
 
-    <div class="project-card">
+    <div class="project-card container">
         {% if project.img %}
-        <h1><img src="{{ project.img }}"/>   {{project.project_name}}</h1>
+        <h1><img src="{{ project.img }}"/> {{project.project_name}}</h1>
         {% else %}
         <h1>{{project.project_name}}</h1>
         {% endif %}
@@ -15,7 +16,9 @@ home: true
         <p>{{ project.description }}</p>
 
         {% if project.link %}
-        <a href="{{ project.link }}"><button type="button" class="btn btn-primary">{{ project.link-name }}</button></a>
+        <a href="{{ project.link }}">
+            <button type="button" class="btn btn-primary">{{ project.link-name }}</button>
+        </a>
         {% endif %}
     </div>
 
