@@ -101,7 +101,7 @@ body {
     width: 40rem;
     background: var(--elem-bg-color);
     border-radius: 50px 15px;
-    padding: 25px 40px 35px 25px;
+    padding: 25px 40px 15px 25px;
 }
 
 .project-card img {
