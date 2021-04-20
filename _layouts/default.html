@@ -13,11 +13,13 @@
 <body style="background-image: linear-gradient(to bottom, dimgray, black)">
 
 <div id="desktop" class="wrapper">
-        {% include sidebar.html %}
+        {% include left-sidebar.html %}
+
     <div id="desktop-content" class="container">
         {% include header.html %}
         {{ content }}
     </div>
+    {% include right-sidebar.html %}
 
 </div>
 

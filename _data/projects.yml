@@ -6,6 +6,8 @@
 
 - project_name: "Do You Know Me? Back-end"
   description: "Currently developing a RESTful back-end server in ExpressJS that uses websockets to facilitate gameplay."
+  link-name: "GitHub Repo"
+  link: "https://github.com/UMBCSOFT/DYNM_Server"
 
 - project_name: "MySQL Database Application"
   description: "Analyzed the requirements, designed, implemented, documented and tested a database application that manages the infrastructure of a mock real estate company."
