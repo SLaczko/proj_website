@@ -1,0 +1,3 @@
+@ECHO RUNNING JEKYLL...
+bundle exec jekyll serve
+@ECHO EXIT

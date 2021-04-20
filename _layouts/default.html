@@ -12,9 +12,13 @@
 </head>
 <body style="background-image: linear-gradient(to bottom, dimgray, black)">
 
-<div id="desktop">
-    {% include header.html %}
-    {{ content }}
+<div id="desktop" class="wrapper">
+        {% include sidebar.html %}
+    <div id="desktop-content" class="container">
+        {% include header.html %}
+        {{ content }}
+    </div>
+
 </div>
 
 <div id="mobile-480px">
