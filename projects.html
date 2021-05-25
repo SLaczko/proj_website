@@ -11,7 +11,7 @@ home: true
 
     <div class="project-card container">
         {% if project.img %}
-        <h1><img src="{{ project.img }}"/> {{project.project_name}}</h1>
+        <div class="inline"><img src="{{ project.img }}"/> <h1>{{project.project_name}}</h1></div>
         {% else %}
         <h1>{{project.project_name}}</h1>
         {% endif %}

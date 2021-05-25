@@ -1,13 +1,14 @@
+- project_name: "Do You Know Me?"
+  description: "Developed ExpressJS back-end using HTTP requests and Websockets to facilitate gameplay. <br>
+                Developed and integrated with ReactJS front-end."
+  link-name: "GitHub Repo"
+  link: "https://github.com/UMBCSOFT/DYNM_Server"
+  img: "/media/dykm.png"
+
 - project_name: "MIPS CPU Simulator"
   description: "A limited instruction set MIPS simulator written in Java."
   link-name: "GitHub"
   link: "https://github.com/StevenLaczko/MIPS"
-
-- project_name: "Do You Know Me? Back-end"
-  description: "Developed a back-end server in ExpressJS that uses HTTP requests and Websockets to facilitate gameplay."
-  link-name: "GitHub Repo"
-  link: "https://github.com/UMBCSOFT/DYNM_Server"
-  img: "/media/dykm.png"
 
 - project_name: "Professional Website"
   description: "Learned front-end development in HTML, CSS, and Jekyll in order to create this site."
@@ -15,13 +16,14 @@
   link: "http://www.stevenlaczko.com/"
 
 - project_name: "Boris"
-  description: "A Discord bot with a friendly (and copyrighted) face. He chats, he reminds, he sends memes! Have fun."
+  description: "A Discord bot written in Python with a friendly (and copyrighted) face. He chats, he reminds, he sends memes! Have fun."
   link-name: "GitHub"
   link: "https://github.com/StevenLaczko/BorisBot"
   img: "/media/tf2_engi.jpg"
 
 - project_name: "Schess Battle Royale"
-  description: "Chess, but with up to 100 players, modified rules, and every man for himself. I coded parts of the UI and did extensive refactoring, as well as all of the 3D modelling."
+  description: "Chess, but with up to 100 players, modified rules, and every man for himself. <br>
+                I coded parts of the UI and did extensive refactoring, as well as all of the 3D modelling."
   link-name: "Schess Website"
   link: "http://schessgame.com/"
   img: "/media/pwn.png"
