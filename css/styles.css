@@ -1,7 +1,7 @@
 :root {
     --elem-bg-color: #d9dfe0;
     --btn-bg-color: #e2ffff;
-    --sidebar-width: 20vw;
+    --sidebar-width: 20rem;
     --sidebar-bg-color: rgba(27, 31, 35, 0.24);
     --header-bg-color: rgba(27, 31, 35, 0.6);
 }
@@ -58,6 +58,7 @@ body {
 #sidebar-writeup {
     padding: 10px;
     color: aliceblue;
+    font-size: 1rem;
 }
 
 #header-content {
@@ -79,7 +80,7 @@ body {
 
 #header-bg .border-bottom {
     height: 100%;
-    width: 50vw;
+    width: 40vw;
     margin-left: auto;
     margin-right: auto;
 }
@@ -178,7 +179,7 @@ body {
 #projects-container {
     position: relative;
     padding: 0;
-    width: 50vw;
+    width: 40vw;
     min-width: 5rem;
     margin: auto auto 4rem auto;
     z-index: 0;
