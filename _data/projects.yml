@@ -16,7 +16,7 @@
   link: "http://www.stevenlaczko.com/"
 
 - project_name: "Boris"
-  description: "A Discord bot written in Python with a friendly (and copyrighted) face. He chats, he reminds, he sends memes! Have fun."
+  description: "A Discord bot written in Python with a friendly (and copyrighted) face. He chats, he reminds, he sends memes!"
   link-name: "GitHub"
   link: "https://github.com/StevenLaczko/BorisBot"
   img: "/media/tf2_engi.jpg"
