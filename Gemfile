@@ -35,3 +35,5 @@ gem "github-pages", "214", group: :jekyll_plugins
 gem "materialize-sass"
 
 gem "webrick", "~> 1.7"
+
+gem 'jekyll-redirect-from'

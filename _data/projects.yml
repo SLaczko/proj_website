@@ -1,5 +1,5 @@
 - project_name: "MIPS CPU Simulator"
-  description: "An limited instruction set MIPS simulator written in Java."
+  description: "A limited instruction set MIPS simulator written in Java."
   link-name: "GitHub"
   link: "https://github.com/StevenLaczko/MIPS"
 
@@ -7,6 +7,7 @@
   description: "Developed a back-end server in ExpressJS that uses HTTP requests and Websockets to facilitate gameplay."
   link-name: "GitHub Repo"
   link: "https://github.com/UMBCSOFT/DYNM_Server"
+  img: "/media/dykm.png"
 
 - project_name: "Professional Website"
   description: "Learned front-end development in HTML, CSS, and Jekyll in order to create this site."
