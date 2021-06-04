@@ -11,7 +11,8 @@
   link: "https://github.com/StevenLaczko/MIPS"
 
 - project_name: "Professional Website"
-  description: "Learned front-end development in HTML, CSS, and Jekyll in order to create this site."
+  description: "Learned front-end development in HTML, CSS, and Jekyll in order to create this site.<br>
+                Hosted on a Raspberry Pi in my home."
   link-name: "This"
   link: "http://www.stevenlaczko.com/"
 
@@ -22,8 +23,9 @@
   img: "/media/tf2_engi.jpg"
 
 - project_name: "Schess Battle Royale"
-  description: "Chess, but with up to 100 players, modified rules, and every man for himself. <br>
-                I coded parts of the UI and did extensive refactoring, as well as all of the 3D modelling."
+  description: "Chess, but with up to 100 players, modified rules, and every man for himself.<br>
+                I coded parts of the UI and did extensive refactoring, as well as all of the 3D modelling.<br>
+                Currently in development - Check the website!"
   link-name: "Schess Website"
   link: "http://schessgame.com/"
   img: "/media/pwn.png"
