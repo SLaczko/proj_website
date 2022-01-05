@@ -1,3 +1,16 @@
+- project_name: "Schess Battle Royale"
+  description: "Chess, but with up to 100 players, modified rules, and every man for himself.<br>
+              I am responsible for much of the UI, all of the 3D modelling.<br>
+              Currently in development - Check the website!"
+  link-name: "Schess Website"
+  link: "http://schessgame.com/"
+  img: "/media/pwn.png"
+
+- project_name: "Schess AI/ML"
+  description: "Using Pytorch, co-designed and programmed LSTM RNN to generate reasonable moves for multiplayer Schess AI, trained on generated Schess games. In progress"
+  link-name: "Schess Website"
+  link: "http://schessgame.com/"
+
 - project_name: "Do You Know Me?"
   description: "Developed ExpressJS back-end using HTTP requests and Websockets to facilitate gameplay. <br>
                 Developed and integrated with ReactJS front-end."
@@ -21,14 +34,6 @@
   link-name: "GitHub"
   link: "https://github.com/StevenLaczko/BorisBot"
   img: "/media/tf2_engi.jpg"
-
-- project_name: "Schess Battle Royale"
-  description: "Chess, but with up to 100 players, modified rules, and every man for himself.<br>
-                I coded parts of the UI and did extensive refactoring, as well as all of the 3D modelling.<br>
-                Currently in development - Check the website!"
-  link-name: "Schess Website"
-  link: "http://schessgame.com/"
-  img: "/media/pwn.png"
 
 - project_name: "MySQL Database Application"
   description: "Analyzed the requirements, designed, implemented, documented and tested a database application that manages the infrastructure of a mock real estate company."
