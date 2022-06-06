@@ -148,11 +148,10 @@ body {
     display: inline-block;
     position: relative;
     vertical-align: middle;
-    transform: translate(0, 0.2vw);
     height: 2.3vw;
     max-height: 60%;
     width: 2.5vw;
-    margin-right: 1vw;
+    margin-left: 0.2vw;
     object-fit:scale-down;
 }
 
@@ -161,7 +160,7 @@ body {
     position: relative;
     vertical-align: middle;
     transform: translateY(15%);
-    margin: auto auto auto 1vw;
+    margin: auto auto auto 0.7vw;
     height: 100%;
     font-size: clamp(7px, 2vw, 28px);
 }
