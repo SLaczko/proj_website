@@ -1,13 +1,13 @@
 - project_name: "Schess Battle Royale"
   description: "Chess, but with up to 100 players, modified rules, and every man for himself.<br>
-              I am responsible for much of the UI, all of the 3D modelling.<br>
-              Currently in development - Check the website!"
+              I am responsible for much of the UI and all of the 3D modelling.<br>
+              Not currently in development - But check the website!"
   link-name: "Schess Website"
   link: "http://schessgame.com/"
   img: "/media/pwn.png"
 
 - project_name: "Schess AI/ML"
-  description: "Using Pytorch, co-designed and programmed LSTM RNN to generate reasonable moves for multiplayer Schess AI, trained on generated Schess games. In progress"
+  description: "Using Pytorch, co-designed and programmed LSTM RNN to generate reasonable moves for multiplayer Schess AI, trained on generated Schess games."
   link-name: "Schess Website"
   link: "http://schessgame.com/"
 
@@ -24,8 +24,7 @@
   link: "https://github.com/StevenLaczko/MIPS"
 
 - project_name: "Professional Website"
-  description: "Learned front-end development in HTML, CSS, and Jekyll in order to create this site.<br>
-                Hosted on a Raspberry Pi in my home."
+  description: "Learned front-end development in HTML, CSS, and Jekyll in order to create this site."
   link-name: "This"
   link: "http://www.stevenlaczko.com/"
 
