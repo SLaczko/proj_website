@@ -108,6 +108,12 @@ body {
     justify-content: center;
 }
 
+.hdr-btn {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
 .button-list-item {
     margin: 0.5rem 1rem 0.5rem 1rem;
 }
@@ -127,19 +133,23 @@ body {
 }
 
 .button-content {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    
     display: table;
-    position: relative;
-    margin: auto;
     text-align: center;
     height: 100%;
 }
 
 .button-content img {
-    display: table-cell;
+    display: inline-block;
     position: relative;
     vertical-align: middle;
     transform: translate(0, 0.2vw);
-    height: 2.5vw;
+    height: 2.3vw;
     max-height: 60%;
     width: 2.5vw;
     margin-right: 1vw;
@@ -147,9 +157,10 @@ body {
 }
 
 .button-content b {
-    display: table-cell;
+    display: inline-block;
     position: relative;
     vertical-align: middle;
+    transform: translateY(15%);
     margin: auto auto auto 1vw;
     height: 100%;
     font-size: clamp(7px, 2vw, 28px);
