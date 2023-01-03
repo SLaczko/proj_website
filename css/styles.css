@@ -1,3 +1,8 @@
+/*
+ * TOP LEVEL
+ *
+ */
+
 :root {
     --elem-bg-color: #d9dfe0;
     --btn-bg-color: #e2ffff;
@@ -28,12 +33,55 @@ body {
     background-attachment: fixed;
 }
 
+
+/*
+ * SIDEBAR
+ *
+ */
+
 .sidebar {
     width: var(--sidebar-width);
 }
 
 #left-sidebar {
     background-color: var(--sidebar-bg-color);
+    padding: 0 1rem 0 1rem;
+    border-left: thick;
+    border-left-style: solid;
+}
+
+#left-sidebar img {
+
+}
+
+#sidebar-image {
+    width: 95%;
+    margin: 1rem auto 1rem auto;
+    aspect-ratio: 1/1;
+    background: linear-gradient(45deg, black, white);
+    border-radius: 50%;
+    position: relative;
+}
+
+#sidebar-image img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    padding: 2px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#sidebar-writeup {
+    color: aliceblue;
+    font-size: 1rem;
+}
+
+#contact-box {
+    text-align: center;
+    margin: 3px 0 3px 0;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: black
 }
 
 #right-sidebar {
@@ -41,25 +89,12 @@ body {
     margin-left: auto;
 }
 
-#sidebar-image {
-    width: 90%;
-    display: block;
-}
 
-#sidebar-image img {
-    margin-top: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    height: auto;
-    border-radius: 100%;
-}
+/*
+ * HEADER/NAVIGATION
+ *
+ */
 
-#sidebar-writeup {
-    padding: 10px;
-    color: aliceblue;
-    font-size: 1rem;
-}
 
 #header-content {
     position: sticky;
@@ -133,7 +168,7 @@ body {
 .button-content {
     color: black;
     margin: 0;
-    
+
     display: table;
     text-align: center;
     height: 100%;
@@ -160,6 +195,11 @@ body {
     font-size: clamp(7px, 1.7vw, 22px);
 }
 
+/*
+ * FOOTER
+ *
+ */
+
 #footer {
     position: relative;
     margin-left: auto;
@@ -171,6 +211,11 @@ body {
     z-index: 1;
 }
 
+/*
+ * CLASSES
+ *
+ */
+
 .overlap {
     position: absolute;
 }
@@ -180,6 +225,11 @@ body {
     position: absolute;
     left: 0; right: 0;
 }
+
+/*
+ * PROJECTS LIST
+ *
+ */
 
 #projects-container {
     position: relative;
@@ -224,11 +274,21 @@ body {
     transform: translate(15px, 35px);
 }
 
+/*
+ * RESUME PAGE
+ *
+ */
+
 #resume {
     margin-top: 2rem;
     position: relative;
     z-index: 0;
 }
+
+/*
+ * COMPATIBILITY
+ *
+ */
 
 #mobile-480px {
     display: none;
